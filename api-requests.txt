@@ -1,0 +1,32 @@
+﻿1 https://swapi.dev/api/people/4
+
+
+2 https://swapi.dev/api/planets/2 
+pulation
+
+
+3 https://swapi.dev/api/starships/10 
+
+
+4 https://swapi.dev/api/people/2, https://swapi.dev/api/species/2
+
+
+5 https://swapi.dev/api/people/10, https://swapi.dev/api/films?people=10
+
+
+6 https://swapi.dev/api/starships?search=millennium
+
+
+Part 2
+
+
+1 expects a body
+2 get returns objects
+3 delete practiceapi.devmountain.com/api/posts/555
+4 409 conflict
+5 post https://practiceapi.devmountain.com/api/posts {“text”: “Tyler”, “date”: “18 aug 2021”}
+6 https://practiceapi.devmountain.com/api/posts/?id=6848
+7 get https://practiceapi.devmountain.com/api/posts/filter?text=blue
+8 application/json; charset=utf-8
+9 Request query is missing required text property.
+10 we get all the posts.  We didn’t specify anything beyond the posts.
