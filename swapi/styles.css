@@ -1,0 +1,29 @@
+button {
+ color: orangered;
+ margin-left: 45%;
+ width: 100px;
+}
+
+button:hover {
+    background-color: black;
+    color: yellow;
+}
+
+h2 {
+    color: palegoldenrod;
+    margin-left: 40%;
+}
+
+#pic {
+    margin-left: 38%;
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: url("https://starwarsblog.starwars.com/wp-content/uploads/2019/05/Force-moments-tall.jpg") no-repeat center fixed;
+    background-size: cover;
+}
